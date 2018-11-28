@@ -38,7 +38,7 @@ import de.schlichtherle.io.File;
 //  squeeze: compress contents and mangle names
 //  bundle: all files in a dir bundled into single archive (fully rebuilt on any changes)
 //  remove <dir relative to source>: skip dir on source; remove from dest
-//  exclude <pattern relative to source>: remove any objects that matches this pattern (i.e. **/CVS, *.bak)
+//  TODO: exclude <pattern relative to source>: remove any objects that matches this pattern (i.e. **/CVS, *.bak)
 
 public class Sync4 {
 	boolean delete = true;
